@@ -205,3 +205,55 @@ header{
 .box p{
     color: #474747;
 }
+
+/* What I section end */
+
+/* My Resume Section Start */
+
+
+/* My Resume Section End */
+
+/* Amazing work section start  */
+#amazing{
+    text-align: center;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    gap: 18px;
+    grid-auto-rows: 150px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six"
+    ;
+}
+
+.gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pic-1{
+    grid-area: one;
+}
+.pic-2{
+    grid-area: two;
+}
+.pic-3{
+    grid-area: three;
+}
+.pic-4{
+    grid-area: four;
+}
+.pic-5{
+    grid-area: five;
+}
+.pic-6{
+    grid-area: six;
+}
+
+
+/* Amazing work section end  */
