@@ -159,4 +159,49 @@ header{
     padding-bottom: 50px;
 }
 
+/* What I section start */
+#what{
+    margin-top: 80px;
+    
+    
+}
+.what-text{
+    text-align: center;
+}
 
+.what-text h2{
+    margin-bottom: 40px;
+}
+
+.what-text p{
+    margin-bottom: 40px;
+}
+
+.what-container{
+    padding:68px ;
+}
+
+.card-container{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
+.box{
+    border: 1px solid #FD6E0A;
+    text-align: left;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.box img{
+    margin-bottom: 15px;
+}
+
+.box h2{
+    margin-bottom: 13px;
+}
+
+.box p{
+    color: #474747;
+}
