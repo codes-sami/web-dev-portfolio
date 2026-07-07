@@ -119,4 +119,44 @@ header{
     
 }
 
+/* About Section Start */
+#about{
+    background-color: #FFF8F3;
+    margin-top: 85px;
+}
+
+.about-container{
+    
+}
+
+.about-center{
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-center h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-center p{
+    font-size: 15px;
+    color: #474747;
+}
+
+.data{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+    /* align-items: center; */
+    margin-bottom: 45px;
+    padding-bottom: 50px;
+}
+
 
